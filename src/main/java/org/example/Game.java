@@ -5,6 +5,7 @@ import java.util.List;
 public class Game {
     public int playGame(List<Integer> list) {
         int count = 0;
+
         for (int i = 0; i < list.size(); i++) {
             if (i == list.size() - 1)
                 break;
